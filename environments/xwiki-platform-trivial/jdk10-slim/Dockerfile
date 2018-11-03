@@ -16,6 +16,7 @@
 #
 
 FROM maven:3.5.4-jdk-10-slim
+MAINTAINER Anatoly Vasilevskiy <Anatoly.Vasilevskiy@sintef.no>
 
 RUN mkdir workingdir \
 	&& apt-get -qq update \
